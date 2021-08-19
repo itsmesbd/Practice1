@@ -1,0 +1,73 @@
+body {
+    background-image: url("images/tumblr_nyolmrFSnH1sr8cguo1_500.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    
+    overflow: hidden;
+  }
+  
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #1bee3e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    
+    color: #1bee3e;
+  }  
+
+h1{
+    color: maroon;
+    text-align: center;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+
+.firstRightDiv{
+   height: 200px;
+   width: 14%;
+    float: left;
+}
+
+
+.firstLeftDiv{
+   height: 200px;
+   width: 14%;
+    float: right;
+}
+
+#secondDiv{
+    padding-top: 200px;
+}
+
+#secondDiv.dl,dt{
+    font-weight: bold;
+    color: darkred;
+    text-shadow: 2px 2px 5px yellow;
+}
+p{
+    font-weight: bold;
+    color: darkred;
+    text-shadow: 2px 2px 5px yellow;
+}
+
+h3{
+    text-shadow: 2px 2px 5px yellow;
+}
